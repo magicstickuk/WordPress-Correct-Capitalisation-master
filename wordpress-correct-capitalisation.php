@@ -22,7 +22,7 @@
 * before saving your data to the database.
 *
 * @since  1.0.0
-* @return object WordPress_Plugin_Template
+* @return object (Correctly Capitalised)
 */
  
 
