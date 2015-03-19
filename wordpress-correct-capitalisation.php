@@ -32,21 +32,22 @@ function correct_capitalisation_WordPress( $data , $postarr ) {
 
   $incorrect_capitalisations 	= array(
 
-  										'post_content' 	=> $data['post_content'],
-  										'post_title' 	=> $data['post_title'],
-  										'post_excerpt' 	=>$data['post_excerpt']
+  	'post_content' 	=> $data['post_content'],
+  	'post_title' 	=> $data['post_title'],
+  	'post_excerpt' 	=> $data['post_excerpt']
 
-  										);
+  );
 
   foreach ($incorrect_capitalisations  as $key => $incorrect_capitalisation) {
 
-  		$correct_capitalisation[$key] = str_ireplace("wordpress", "WordPress", $incorrect_capitalisation);
-  		$data[$key]  = $correct_capitalisation[$key];
+  	$correct_capitalisation[$key] = str_ireplace("wordpress", "WordPress", $incorrect_capitalisation);
+
+  	$data[$key]  = $correct_capitalisation[$key];
+
   }
  
   return $data;
  
-
 }
  
 
