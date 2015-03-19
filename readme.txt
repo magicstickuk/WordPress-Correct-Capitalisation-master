@@ -7,7 +7,7 @@ Stable tag: 1.0
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
-This is an insanely simple plugin that fixes and mention of WordPress in your post or page to the correct capitalisation of the word.
+This is an insanely simple plugin that fixes any instance of the word 'WordPress' that has the incorrect capitalisation in your post or page content, title or excerpt.
 
 == Description ==
 
